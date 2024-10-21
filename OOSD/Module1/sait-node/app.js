@@ -8,4 +8,6 @@ http.createServer((req,res) => {
 
     res.end();
 
-}).listen(8000);
+}).listen(8000, () => {
+    console.log(`Server is running on port 8000`);
+});
