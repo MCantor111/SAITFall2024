@@ -6,6 +6,14 @@
     <title>My Site - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<script>
+    const getRandomGreeting = require('./greeting');
+
+    getRandomGreeting.text=getRandomGreeting();
+    /*--
+        Didn't work :')
+    --*/
+</script>
 <body>
     <header>
         <h1>Welcome to My Site</h1>
@@ -19,6 +27,7 @@
         <section class="box1">This is the homepage content.</p>
         <br>
         <p>This is a random greeting ::</p>
+        <section class="randomgreeting"></section>
     </main>
     <footer class="footer">
         © 2024 η℩.cantor ↈ + ⌈𝗆𝖾𝗍𝖺𝖼𝗈𝖽𝖺⌋ ⊛
