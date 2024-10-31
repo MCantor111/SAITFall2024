@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CPRG200Assignment1_Cantor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+891d433250b17f8767182b1427fc8df84db06056")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+411a489e047b3d2d294035d150ab0be97f0768f6")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1896bb3bcd11771a4da9867136c89333f5cb4c37")]
 [assembly: System.Reflection.AssemblyProductAttribute("CPRG200Assignment1_Cantor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CPRG200Assignment1_Cantor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
