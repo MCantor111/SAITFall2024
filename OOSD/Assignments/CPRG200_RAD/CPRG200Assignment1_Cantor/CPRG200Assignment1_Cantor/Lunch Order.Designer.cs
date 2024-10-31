@@ -40,6 +40,7 @@
             condiments = new CheckedListBox();
             label1 = new Label();
             checkedListBox1 = new CheckedListBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lblMainCourse
@@ -149,10 +150,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label1.Location = new Point(88, 37);
+            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            label1.Location = new Point(28, 22);
             label1.Name = "label1";
-            label1.Size = new Size(174, 20);
+            label1.Size = new Size(284, 32);
             label1.TabIndex = 10;
             label1.Tag = "lblAuthor";
             label1.Text = "# Author :: η℩.cαηtor ↈ";
@@ -166,11 +167,22 @@
             checkedListBox1.Size = new Size(122, 26);
             checkedListBox1.TabIndex = 11;
             // 
+            // button1
+            // 
+            button1.Location = new Point(141, 247);
+            button1.Name = "button1";
+            button1.Size = new Size(171, 29);
+            button1.TabIndex = 12;
+            button1.Text = "▶ Add to Order";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(checkedListBox1);
             Controls.Add(label1);
             Controls.Add(condiments);
@@ -203,5 +215,6 @@
         private CheckedListBox condiments;
         private Label label1;
         private CheckedListBox checkedListBox1;
+        private Button button1;
     }
 }
