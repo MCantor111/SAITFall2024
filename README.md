@@ -1,3 +1,3 @@
 # SAITFall2024
 
-# Author :: η℩.cantor ↈ
+# Author :: η℩.cαηtor ↈ

@@ -6,5 +6,20 @@ namespace CPRG200Assignment1_Cantor
         {
             InitializeComponent();
         }
+
+        private void lblSalad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPizza_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
