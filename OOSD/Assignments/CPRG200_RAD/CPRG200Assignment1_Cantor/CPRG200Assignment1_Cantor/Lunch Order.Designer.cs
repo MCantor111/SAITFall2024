@@ -31,6 +31,8 @@
             lblMainCourse = new Label();
             hamburgerNum = new TextBox();
             lblHamburger = new Label();
+            lblPizza = new Label();
+            pizzaNum = new TextBox();
             SuspendLayout();
             // 
             // lblMainCourse
@@ -61,11 +63,33 @@
             lblHamburger.TabIndex = 2;
             lblHamburger.Text = "Hamburger - $6.95";
             // 
+            // lblPizza
+            // 
+            lblPizza.AutoSize = true;
+            lblPizza.Location = new Point(141, 140);
+            lblPizza.Name = "lblPizza";
+            lblPizza.Size = new Size(92, 20);
+            lblPizza.TabIndex = 3;
+            lblPizza.Tag = "lblPizza";
+            lblPizza.Text = "Pizza - $5.95";
+            // 
+            // pizzaNum
+            // 
+            pizzaNum.Location = new Point(88, 138);
+            pizzaNum.Name = "pizzaNum";
+            pizzaNum.Size = new Size(30, 27);
+            pizzaNum.TabIndex = 4;
+            pizzaNum.Tag = "pizzaNum";
+            pizzaNum.Text = "0";
+            pizzaNum.TextAlign = HorizontalAlignment.Right;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(pizzaNum);
+            Controls.Add(lblPizza);
             Controls.Add(lblHamburger);
             Controls.Add(hamburgerNum);
             Controls.Add(lblMainCourse);
@@ -80,5 +104,7 @@
         private Label lblMainCourse;
         private TextBox hamburgerNum;
         private Label lblHamburger;
+        private Label lblPizza;
+        private TextBox pizzaNum;
     }
 }
